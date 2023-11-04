@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+html {
+    background-color: #2f242c;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto auto auto auto;
+    background-color: #502274;
+    border-radius: 7px;
+    color: #eeb4b3;
+    width: 900px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.cabecalho {
+    text-align: center;
+    border-radius: 7px 7px 0 0;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c179b9;
+    border-radius: 7px;
+    padding: 15px 15px 47px 15px;
+}
+
+.cabecalhoExibicao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 35px;
+}
+
+.corpoExibicao {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 4px;
+    gap: 4px;
+    height: 35px;
+    background-color: #c179b9;
+    color: #a42cd6;
+    transition: background-color 0.5s;
+    border-radius: 4px;
+    border: 1px solid #2f242c1f;
+    cursor: pointer;
+}
+
+.corpoExibicao:hover {
+    background-color: #a92cd62c;
+}
+
+.juntaCoropoExibicao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 4px #2f242c;
+    border-radius: 7px;
+    margin-top: 10px;
+    padding: 0 4px 8.5px 4px;
+}
+
+.idFormat {
+    width: 90px;
+}
+
+.estadoFormat {
+    width: 150px;
+}
+
+.descricaoFormat {
+    width: 370px;
+}
+
+.tarefaFormat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    padding-left: 7px;
+}
+
+.prazoFormat {
+    min-width: 175px;
+}
+
+#alteraTarefa {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    color: #a42cd6;
+    cursor: pointer;
+    text-align: center;
+    border: 0;
+    border-radius: 3px;
+}
+
+select {
+    color: #a42cd6;
+    cursor: pointer;
+    text-align: center;
+    border: 0;
+    border-radius: 3px;
+    background-color: white;
+}
+
+textarea {
+    color: #a42cd6;
+    cursor: pointer;
+    max-width: 640px;
+    border: 0;
+    border-radius: 3px;
+}
+
+.divBotaoNovo {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    gap: 4px;
+}
+
+#divBotoesInicio {
+    display: flex;
+    justify-content: space-between;
+    width: 815px;
+}
+
+.Botoes {
+    color: #c179b9;
+    background-color: #502274;
+    border: 0;
+    border-radius: 4px;
+    height: 22px;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+.Botoes:hover {
+    background-color: #351150;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 1px;
+}
