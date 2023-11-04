@@ -21,8 +21,8 @@ if ($_SERVER['REQUEST_METHOD'] === "POST" && isset($_POST['salvar']) && $_POST['
         $tarefaCria,
         $prazoTarefa
     );
-    //$tarefa->CriaTarefa();
-    //header("location: /inicio");
+    $tarefa->CriaTarefa();
+    header("location: /inicio");
 
 }
 

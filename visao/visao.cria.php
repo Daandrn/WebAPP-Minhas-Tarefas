@@ -35,7 +35,7 @@
                         <option value="1">Cadastrar</option>
                     </select>
                     <input class="descricaoFormat" type="text" name="descricaoTarefa" autofocus value="" required>
-                    <input class="prazoFormat" type="datetime-local" name="prazoTarefa" min="<?php echo date('Y-m-dTH:m');?>" max="2050-12-31T23:59" value="" required>
+                    <input class="prazoFormat" type="datetime-local" name="prazoTarefa" min="<?php echo date('Y-m-d H:m');?>" max="2050-12-31T23:59" value="" required>
                 </span>
                 <span id="alteraTarefa">
                     <div class="tarefaFormat">

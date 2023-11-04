@@ -1,15 +1,18 @@
 @charset "UTF-8";
 
 html {
+    display: flex;
+    align-items: center;
     background-color: #2f242c;
+    height: 100vh;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    margin: auto auto auto auto;
     background-color: #502274;
     border-radius: 7px;
+    margin: auto auto auto auto;
     color: #eeb4b3;
     width: 900px;
 }
@@ -30,6 +33,7 @@ h1 {
     background-color: #c179b9;
     border-radius: 7px;
     padding: 15px 15px 47px 15px;
+    min-height: calc(100vh - 185px);
 }
 
 .cabecalhoExibicao {
