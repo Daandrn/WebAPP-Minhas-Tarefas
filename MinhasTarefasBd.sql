@@ -9,7 +9,19 @@ CREATE DATABASE "MinhasTarefas"
     CONNECTION LIMIT = -1
     IS_TEMPLATE = False;
 
+-------------------------------------->
+CREATE TABLE public.statustarefa
+(
+    id integer NOT NULL,
+    descricao text NOT NULL,
+    PRIMARY KEY (id)
+)
 
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.staustarefa
+    OWNER to postgres;
+    
 -------------------------------------->
     CREATE TABLE public.tarefas
 (
@@ -28,19 +40,6 @@ CREATE DATABASE "MinhasTarefas"
 TABLESPACE pg_default;
 
 ALTER TABLE IF EXISTS public.tarefas
-    OWNER to postgres;
-
--------------------------------------->
-CREATE TABLE public.statustarefa
-(
-    id integer NOT NULL,
-    descricao text NOT NULL,
-    PRIMARY KEY (id)
-)
-
-TABLESPACE pg_default;
-
-ALTER TABLE IF EXISTS public.staustarefa
     OWNER to postgres;
 
 -------------------------------------->
